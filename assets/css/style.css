@@ -1,0 +1,48 @@
+body {
+    color: white;
+}
+.button3 {
+  background-color:orange;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding: 20px;
+  margin-left: 100px;
+  display: none;
+}
+  
+.button3:hover {
+  background-color: green; /* Green */
+  color: white;
+}
+#answers, #allQuestions, #timeRemaining {
+    display: none;
+}
+
+#answers {
+  padding: 25px;
+  margin: 25px;
+}
+
+.img {
+  width: 50%;
+  height: 50%;
+  margin: 80px;
+}
+  
+#startButton {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 16px;
+  padding: 60px 60px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+ 
+
+    

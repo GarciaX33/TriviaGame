@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Basketball Trivia Trivia</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body background="assets/images/background.jpg">
+    <div class="container"></div>
+    <div class="col-md-4">
+        <style>
+            body {
+                color: white;
+            }
+        </style>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div id="main-container" class="container">
+                <section class="main-section">
+                    <div id="wrapper">
+                        <!-- Questions -->
+                        <p id="question"></p>
+                        <div id="allQuestions">
+                            <tr>
+                                <span id="question1">
+                                    <h3>What player scored the most points in one game?</h3>
+                                </span>
+                                <td>
+                                    <input type="radio" name="q1" value="false">Michael Jordan</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q1" value="false">Marl Malone</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q1" value="true"> Wilt Chamberlain</br>
+                                </td>
+
+                                <span id="question2">
+                                    <h3>Who was the tallest player of all-time?</h3>
+                                </span>
+                                <td>
+                                    <input type="radio" name="q2" value="true">Gheorghe Muresan</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q2" value="false">Yao Ming</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q2" value="false">Manute Bol</br>
+                                </td>
+
+                                <span id="question3">
+                                    <h3>Which NBA Team holds record for the most NBA Championships??</h3>
+                                </span>
+                                <td>
+                                    <input type="radio" name="q3" value="false">Los Angeles Lakers</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q3" value="false">Chicago Bulls</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q3" value="true">Boston Celtics</br>
+                                </td>
+
+                                <span id="question4">
+                                    <h3>What player has the most career points?</h3>
+                                </span>
+                                <td>
+                                    <input type="radio" name="q4" value="true">Kareem Abdul-Jabbar</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q4" value="false">Michael Jordan</br>
+                                </td>
+                                <td>
+                                    <input type="radio" name="q4" value="false">Wilt Chamberlain</br>
+                                </td>
+                            </tr>
+                        </div>
+                        <br>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Time Countdown -->
+        <div class="col-md-4">
+            <div id="timeRemaining">
+                <h2>Time Remaining: <div id="fifteenSecs"></div>
+                </h2>
+            </div>
+            <div id="button1">
+                <img class="img" src="assets/images/ball.png" alt="ball">
+                <button id="startButton"></button>
+            </div>
+            <div>
+                <input class="button3" type="button" value="Reset Game" onClick="location.href=location.href">
+            </div>
+        </div>
+        <!-- Answers -->
+        <div class="col-md-4">
+            <div id="answers">
+                <br>
+                <h3>Correct Answers: <span id="correctAnswers"></span></h3>
+                <h3>Incorrect Answers: <span id="incorrectAnswers"></span></h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
